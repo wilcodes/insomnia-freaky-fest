@@ -1,0 +1,73 @@
+/*Defining some global styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: Montserrat, sans-serif;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    font-size: 1em;
+    scroll-behavior: smooth;
+    background-color: #f8f8f8;
+}
+
+/* ----------------------------------------------- */
+/* Extras*/
+/* ----------------------------------------------- */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #3c1642; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+
+    background: #b2ff9e;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #086375; 
+  }
+
+/* ----------------------------------------------- */
+  /*---------Navigation Styles------------*/
+/* ----------------------------------------------- */
+
+nav img{
+    width: 110px;
+    height: auto;
+    margin-left: 0.5rem;
+    margin-top: 0.3em;
+}
+
+#navWrapper{
+    box-sizing: border-box;
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    
+}
+
+.icon{
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    color: #3c1642;
+}
+
+.icon:hover{
+    color: #086375;
+    transition: 1ms;
+}
+

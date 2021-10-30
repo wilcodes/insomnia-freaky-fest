@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;400;700&family=Spartan:wght@100;400&display=swap');
 /*Defining some global styles */
 
 *{
@@ -11,7 +12,7 @@ html, body{
     overflow-x: hidden;
     font-size: 1em;
     scroll-behavior: smooth;
-    background-color: #f8f8f8;
+    
 }
 
 /* ----------------------------------------------- */
@@ -48,22 +49,26 @@ nav img{
     height: auto;
     margin-left: 0.5rem;
     margin-top: 0.3em;
+
 }
 
 #navWrapper{
     box-sizing: border-box;
-    padding: 1.5rem;
+    padding: 1rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-flow: row;
+    background-color: #000000;
+   border: none;
+    
     
 }
 
 .icon{
     font-size: 2rem;
     margin-right: 0.5rem;
-    color: #3c1642;
+    color: #ffffff;
 }
 
 .icon:hover{
@@ -71,3 +76,55 @@ nav img{
     transition: 1ms;
 }
 
+/* ----------------------------------------------- */
+  /*---------Video Styles------------*/
+/* ----------------------------------------------- */
+
+#myVideo {
+  position: relative;
+
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 40%;
+  width: 100%;
+  height: auto;
+  grid-area: 1 / 1 / 4 / 2;
+  z-index: -1;
+}
+
+#videoWrapper{
+  background-color: #000000;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+
+ header h1{
+  z-index:1;
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Antonio', sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+header p{
+  z-index:1;
+  color: #ffffff;
+  font-size: 0.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Monserrat', sans-serif;
+  letter-spacing: 0.1rem;
+  margin-top: 0.5rem;
+}
+header{
+  grid-area: 2/ 1 / 2 / 3;
+}

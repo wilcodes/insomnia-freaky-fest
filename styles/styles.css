@@ -135,7 +135,6 @@ header{
 /* ----------------------------------------------- */
 
 .hamburger{
-  position: fixed;
   z-index: 100;
   top: 1rem;
   right: 1rem;
@@ -207,3 +206,58 @@ ul {
 .modalLogoBlack{
   display: none;
 }
+
+/* ----------------------------------------------- */
+  /*---------Main-----------*/
+/* ----------------------------------------------- */
+
+#homeMain{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+
+.iconMain{
+  font-size: 3rem;
+  color: #086375;  
+}
+
+.mainInformationBox{
+  padding: 1rem;
+  text-align: center;
+}
+
+.mainInformationBox h2{
+text-transform: uppercase;
+color: #086375;  
+margin-bottom: 1rem;
+}
+
+.mainInformationBox p{
+  text-transform: capitalize;
+  color: #3c1642;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  }
+
+  #homeMain button{
+    font-family: "Spartan";
+    color: #ffffff;
+    background-color: #086375;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+  }
+
+  #homeMain button:hover{
+    background-color:#3c1642 ;
+    color: #ffffff;
+    transition: 0.5s;
+  }

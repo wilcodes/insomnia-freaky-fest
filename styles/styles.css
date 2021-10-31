@@ -48,7 +48,7 @@ nav img{
     width: 110px;
     height: auto;
     margin-left: 0.5rem;
-    margin-top: 0.3em;
+   z-index: 155; 
 
 }
 
@@ -69,6 +69,7 @@ nav img{
     font-size: 2rem;
     margin-right: 0.5rem;
     color: #ffffff;
+    margin-top: 0.3rem;
 }
 
 .icon:hover{
@@ -127,4 +128,82 @@ header p{
 }
 header{
   grid-area: 2/ 1 / 2 / 3;
+}
+
+/* ----------------------------------------------- */
+  /*---------Hamburger------------*/
+/* ----------------------------------------------- */
+
+.hamburger{
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.iconClose {
+  display: none;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  color: #000000;
+  margin-top: 0.3rem;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #b2ff9e;
+  color: white;
+  padding-top: 4rem;
+  text-align: center;
+  
+  
+}
+
+.showMenu{
+  transform: translateY(0);
+}
+ul {
+  margin-top: 2rem;
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+
+/* ----------------------------------------------- */
+  /*---------SideBar-----------*/
+/* ----------------------------------------------- */
+
+.menuItem{
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Spartan" ;
+  
+}
+.itemWrapper{
+  margin: 0.7rem;
+}
+
+.menuItem:hover{
+  color: #3c1642;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.modalLogoBlack{
+  display: none;
 }

@@ -14,10 +14,28 @@
 
         <nav>
                 <div id="navWrapper">
-                        <img src="./assets/insomnia-partai-logo-3.png" alt="Logo" />
-                        <ion-icon name="menu" class="icon"></ion-icon>
+                        <img src="./assets/insomnia-partai-logo-3.png" alt="Logo" class="modalLogoWhite"/>
+                        <img src="./assets/insomnia-partai-logo-2.png" alt="Logo" class="modalLogoBlack"/>
+                        <button class="hamburger">
+                            <ion-icon name="menu" class="icon"></ion-icon>
+                            <ion-icon name="close-sharp" class="iconClose"></ion-icon>
+                        </button>
+                        
                 </div>
         </nav>
+       <div class="menu">
+            <ul >
+                <li class="itemWrapper"><a class="menuItem" href="#">Home</a></li>
+                <li class="itemWrapper"><a class="menuItem" href="#">LINE UP</a></li>
+                <li class="itemWrapper"><a class="menuItem" href="#">FAQs</a></li>
+                <li class="itemWrapper"><a class="menuItem" href="#">Sponsors</a></li>
+                <li class="itemWrapper"><a class="menuItem" href="#">Contact</a></li>
+                <li class="itemWrapper"><a class="menuItem" href="#">Map</a></li>
+          </ul>
+       </div>
+
+       
+
 
         <div id="videoWrapper">
             <video autoplay muted loop id="myVideo">
@@ -45,6 +63,7 @@
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="./script.js"></script>
     </body>
         
 </html>

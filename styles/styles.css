@@ -58,7 +58,7 @@ nav img{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-flow: row;
+    flex-flow: row wrap;
     background-color: #3c1642;
    border: none;
     
@@ -75,6 +75,9 @@ nav img{
 .icon:hover{
     color: #086375;
     transition: 1ms;
+}
+.navBox{
+  display: none;
 }
 
 /* ----------------------------------------------- */
@@ -290,14 +293,7 @@ margin-bottom: 0.5rem;
 
 }
 
-.mainLogo{
-  width: 60%;
-  height: auto;
-}
-.mainLogoWrapper{
-  text-align: center;
-  padding: 1rem;
-}
+
 
   /* ----------------------------------------------- */
   /*---------Section Two------------*/
@@ -355,7 +351,7 @@ footer ul {
   color: #ffffff;
   font-family: "Spartan" ;
 }
-.menuItemFooter:hover{
+.menuItemFooter:hover, .menuItemNav:hover{
   text-decoration: underline;
   transition: 0.2s ;
   
@@ -376,5 +372,83 @@ footer p {
   text-align: center;
   font-size: 1rem;
   font-family: "Spartan" ;
+}
+.mainLogo{
+  width: 60%;
+  height: auto;
+}
+.mainLogoWrapper{
+  text-align: center;
+  padding: 1rem;
+}
+
+
+@media only screen and (min-width: 1020px)  {
+  
+/* ----------------------------------------------- */
+  /*---------Navigation Styles------------*/
+/* ----------------------------------------------- */
+
+  .hamburger{
+    display: none;
+  }
+
+  .navBox{
+    display: block;
+  }
+  nav ul {
+  padding-top: 0.5rem ;
+  display: flex;
+  flex-flow: row wrap;
+  
+  list-style: none;
+  
+  }
+
+  .menuItemNav{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    margin-right: 1rem;
+    font-family: "Spartan";
+  }
+
+  /* ----------------------------------------------- */
+  /*---------Video Styles------------*/
+/* ----------------------------------------------- */
+#myVideo {
+  position: relative;
+
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 40%;
+  width: 240px;
+  height: auto;
+  grid-area: 1 / 1 / 4 / 2;
+  z-index: -1;
+}
+
+/* ----------------------------------------------- */
+  /*---------Main-----------*/
+/* ----------------------------------------------- */
+
+#homeMain{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 0.8rem;
+}
+  /* ----------------------------------------------- */
+  /*---------Footer------------*/
+/* ----------------------------------------------- */
+.mainLogo{
+  width: 15%;
+  height: auto;
+}
+.mainLogoWrapper{
+  text-align: center;
+  padding: 0.7rem;
+}
+
 }
 

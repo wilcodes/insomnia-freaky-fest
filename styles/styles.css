@@ -54,12 +54,12 @@ nav img{
 
 #navWrapper{
     box-sizing: border-box;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-flow: row;
-    background-color: #000000;
+    background-color: #3c1642;
    border: none;
     
     
@@ -155,7 +155,7 @@ header{
 .menu {
   position: fixed;
   transform: translateY(-100%);
-  transition: transform 0.2s;
+  transition: transform 0.4s;
   top: 0;
   left: 0;
   right: 0;
@@ -219,7 +219,7 @@ ul {
 
 .iconMain{
   font-size: 3rem;
-  color: #086375;  
+  color: #3c1642;
 }
 
 .mainInformationBox{
@@ -229,7 +229,7 @@ ul {
 
 .mainInformationBox h2{
 text-transform: uppercase;
-color: #086375;  
+color: #3c1642;  
 margin-bottom: 1rem;
 }
 
@@ -242,17 +242,20 @@ margin-bottom: 1rem;
   }
 
   #homeMain button{
-    font-family: "Spartan";
-    color: #ffffff;
-    background-color: #086375;
-    border: none;
-    padding: 0.6rem;
-    border-radius: 0.6rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    cursor: pointer;
-    font-weight: bold;
-    margin-bottom: 1rem;
+   
+  background: #b2ff9e;
+	color: #000000;
+	border: 1px solid #3c1642;
+	border-radius: 50px;
+	padding: 0.6rem 1rem;
+	font-size: 1rem;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	transition: 0.2s ease-in-out;
+	letter-spacing: 2px;
+  box-shadow: 1px 1px #000000;
+ 
 
   }
 
@@ -261,3 +264,69 @@ margin-bottom: 1rem;
     color: #ffffff;
     transition: 0.5s;
   }
+
+  /* ----------------------------------------------- */
+  /*---------Section One------------*/
+/* ----------------------------------------------- */
+
+.sectionOne{
+  margin: 2em 0;
+ 
+
+}
+.sectionOne h2, .sectionTwo h2{
+text-transform: uppercase;
+color: #3c1642;  
+font-family: "Spartan";
+text-align: center;
+margin-bottom: 0.5rem;
+}
+
+.sectionOne p{
+  font-family: "Spartan";
+  color: #3c1642;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem ;
+
+}
+
+.mainLogo{
+  width: 60%;
+  height: auto;
+}
+.mainLogoWrapper{
+  text-align: center;
+  padding: 1rem;
+}
+
+  /* ----------------------------------------------- */
+  /*---------Section Two------------*/
+/* ----------------------------------------------- */
+.sectionTwo h2:first-of-type{
+margin-bottom: 1rem;
+}
+
+#date{
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.sectionTwo{
+  background-color: #b2ff9e;
+  padding: 1rem;
+}
+
+.CountDownWrapper{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+}
+
+.sectionTwo p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+
+}

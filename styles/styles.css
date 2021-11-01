@@ -172,7 +172,7 @@ header{
 .showMenu{
   transform: translateY(0);
 }
-ul {
+.menu ul {
   margin-top: 2rem;
   list-style: none;
   display: flex;
@@ -272,7 +272,6 @@ margin-bottom: 1rem;
 .sectionOne{
   margin: 2em 0;
  
-
 }
 .sectionOne h2, .sectionTwo h2{
 text-transform: uppercase;
@@ -330,3 +329,52 @@ justify-content: space-evenly;
   font-size: 0.7rem;
 
 }
+
+
+ /* ----------------------------------------------- */
+  /*---------Footer------------*/
+/* ----------------------------------------------- */
+
+
+footer{
+  background-color: #3c1642;
+  color: #ffffff;
+}
+
+footer ul {
+  padding-top: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.menuItemFooter{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Spartan" ;
+}
+.menuItemFooter:hover{
+  text-decoration: underline;
+  transition: 0.2s ;
+  
+}
+
+.iconsWrapper{
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.icons{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Spartan" ;
+}
+

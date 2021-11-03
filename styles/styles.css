@@ -46,7 +46,7 @@ html, body{
 
 nav img{
     width: 110px;
-    height: auto;
+    
     margin-left: 0.5rem;
    z-index: 155; 
 
@@ -60,9 +60,11 @@ nav img{
     justify-content: space-between;
     flex-flow: row wrap;
     background-color: #3c1642;
-   border: none;
-    
-    
+    border: none;
+    height: 4.3rem;
+    box-shadow: 0 2px 2px #efefef;
+   
+  
 }
 
 .icon{
@@ -228,6 +230,7 @@ header{
 .mainInformationBox{
   padding: 1rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .mainInformationBox h2{
@@ -338,12 +341,13 @@ footer{
 }
 
 footer ul {
-  padding-top: 1rem;
+  padding-top: 1.3rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   list-style: none;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
 }
 
 .menuItemFooter{
@@ -372,6 +376,7 @@ footer p {
   text-align: center;
   font-size: 1rem;
   font-family: "Spartan" ;
+  padding: 1rem;
 }
 .mainLogo{
   width: 60%;
@@ -381,13 +386,25 @@ footer p {
   text-align: center;
   padding: 1rem;
 }
+ /* ----------------------------------------------- */
+  /*---------Media Queries------------*/
+/* ----------------------------------------------- */
 
+@media only screen and (min-width: 700px)  {
+/* ----------------------------------------------- */
+  /*---------Header------------*/
+/* ----------------------------------------------- */
 
-@media only screen and (min-width: 1020px)  {
+  header h1{
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+  }
   
-/* ----------------------------------------------- */
-  /*---------Navigation Styles------------*/
-/* ----------------------------------------------- */
+  header p{
+   
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+  }
 
   .hamburger{
     display: none;
@@ -397,35 +414,35 @@ footer p {
     display: block;
   }
   nav ul {
-  padding-top: 0.5rem ;
   display: flex;
   flex-flow: row wrap;
-  
   list-style: none;
-  
+  }
+
+  .navBox{
+    height: 3.5rem;
   }
 
   .menuItemNav{
+    font-size: 1rem;
     color: #ffffff;
     text-decoration: none;
-    padding: 1rem;
+    padding: .5rem;
     margin-right: 1rem;
     font-family: "Spartan";
+    line-height: 3.5rem;
+  }
+  .menuItemNav:hover{
+    
   }
 
   /* ----------------------------------------------- */
   /*---------Video Styles------------*/
 /* ----------------------------------------------- */
 #myVideo {
-  position: relative;
-
   min-width: 50%;
   min-height: 50%;
-  opacity: 40%;
   width: 240px;
-  height: auto;
-  grid-area: 1 / 1 / 4 / 2;
-  z-index: -1;
 }
 
 /* ----------------------------------------------- */
@@ -436,19 +453,227 @@ footer p {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin-top: 0.8rem;
+  margin-top: 1rem;
 }
+
+.iconMain{
+  font-size: 4rem;
+  color: #3c1642;
+}
+
+.mainInformationBox{
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mainInformationBox h2{
+font-size: 1.7rem;
+}
+
+.mainInformationBox p{
+  
+  font-size: 1.2rem;
+  }
+
+  #homeMain button{
+	font-size: 1.2rem;
+
+  }
+
+   /* ----------------------------------------------- */
+  /*---------Section One------------*/
+/* ----------------------------------------------- */
+
+.sectionOne{
+  margin: 2.5em 0;
+ 
+}
+.sectionOne h2, .sectionTwo h2{
+font-size: 1.7rem;
+margin-bottom: 0.7rem;
+
+}
+
+.sectionOne p{
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+}
+ /* ----------------------------------------------- */
+  /*---------Section Two------------*/
+/* ----------------------------------------------- */
+.sectionTwo .title{
+  
+  font-size: 1.7em;
+
+ }
+  
+  .sectionTwo h2{
+   margin-top: 0.4rem;
+    font-size: 2.7rem;
+    letter-spacing: 3px;
+  }
+  
+  .sectionTwo{
+    
+    padding: 1rem;
+  }
+  
+ 
+  
+  .sectionTwo p {
+    
+    font-size: 1rem;
+    padding-bottom: 0.5rem
+  }
+
+
   /* ----------------------------------------------- */
   /*---------Footer------------*/
 /* ----------------------------------------------- */
 .mainLogo{
-  width: 15%;
+  width: 20%;
   height: auto;
 }
 .mainLogoWrapper{
   text-align: center;
   padding: 0.7rem;
 }
+
+footer ul {
+  font-size: 1.2rem;
+}
+
+
+}
+
+@media only screen and (min-width: 1020px)  {
+
+  header h1{
+   
+    font-size: 5.5rem;
+   
+  }
+  
+/* ----------------------------------------------- */
+  /*---------Navigation Styles------------*/
+/* ----------------------------------------------- */
+
+.menuItemNav{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1rem;
+  margin-right: 1rem;
+  font-family: "Spartan";
+  line-height: 3.5rem;
+  font-size: 1.25rem;
+}
+
+footer ul {
+  font-size: 1.2rem;
+}
+
+/* ----------------------------------------------- */
+  /*---------Main Styles------------*/
+/* ----------------------------------------------- */
+
+.iconMain{
+  font-size: 4.5rem;
+  color: #3c1642;
+}
+
+.mainInformationBox{
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mainInformationBox h2{
+font-size: 2rem;
+}
+
+.mainInformationBox p{
+  
+  font-size: 1.4rem;
+  }
+
+  #homeMain button{
+	font-size: 1.4rem;
+	outline: none;
+	cursor: pointer;
+  }
+/* ----------------------------------------------- */
+  /*---------Section One Styles------------*/
+/* ----------------------------------------------- */
+  .sectionOne{
+    margin: 4rem 0;
+   
+  }
+  .sectionOne h2, .sectionTwo h2{
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  
+  }
+  
+  .sectionOne p{
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+    padding: 0 4em ;
+  }
+
+   /* ----------------------------------------------- */
+  /*---------Section Two------------*/
+/* ----------------------------------------------- */
+.sectionTwo .title{
+  
+  font-size: 2rem;
+
+ }
+  
+  .sectionTwo h2{
+   margin-top: 1rem;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+  }
+  
+  .sectionTwo{
+    
+    padding: 1.2rem;
+  }
+  
+  .sectionTwo p {
+    
+    font-size: 1rem;
+    padding-bottom: 0.5rem
+  }
+  
+   /* ----------------------------------------------- */
+  /*---------Footer------------*/
+/* ----------------------------------------------- */
+.mainLogo{
+  width: 12%;
+  height: auto;
+}
+.mainLogoWrapper{
+  
+  padding: 0.7rem;
+}
+
+footer ul {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+footer p{
+  font-size: 1.3rem;
+}
+
+.icons{
+  font-size: 1.8rem;
+  padding: 0.5rem;
+ 
+}
+
 
 }
 

@@ -319,14 +319,19 @@ margin-bottom: 1rem;
 .CountDownWrapper{
 display: flex;
 flex-flow: row wrap;
-justify-content: space-evenly;
+justify-content: center;
+
+}
+
+.CountDownBox{
+  margin: 0.5rem;
 }
 
 .sectionTwo p {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 0.7rem;
-
+  text-align: center;
 }
 
 
@@ -344,19 +349,22 @@ footer ul {
   padding-top: 1.3rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style: none;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.5rem;
   font-size: 1rem;
+
 }
 
 .menuItemFooter{
+  
   text-decoration: none;
   color: #ffffff;
   font-family: "Spartan" ;
 }
 .menuItemFooter:hover, .menuItemNav:hover{
-  text-decoration: underline;
+  border-bottom: 2px solid #b2ff9e;
+  
   transition: 0.2s ;
   
 }
@@ -379,7 +387,7 @@ footer p {
   padding: 1rem;
 }
 .mainLogo{
-  width: 60%;
+  width: 40%;
   height: auto;
 }
 .mainLogoWrapper{
@@ -433,7 +441,10 @@ footer p {
     line-height: 3.5rem;
   }
   .menuItemNav:hover{
-    
+    background-color: #b2ff9e;
+    color: #3c1642;
+    text-decoration: none;
+    transition: 0.5s;
   }
 
   /* ----------------------------------------------- */
@@ -527,6 +538,10 @@ margin-bottom: 0.7rem;
     padding-bottom: 0.5rem
   }
 
+  .CountDownBox{
+    margin: 1.2rem;
+  }
+
 
   /* ----------------------------------------------- */
   /*---------Footer------------*/
@@ -567,10 +582,21 @@ footer ul {
   font-family: "Spartan";
   line-height: 3.5rem;
   font-size: 1.25rem;
+  
 }
 
 footer ul {
   font-size: 1.2rem;
+  justify-content: center;
+
+}
+
+
+.menuItemFooter{
+  margin: 1.5rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Spartan" ;
 }
 
 /* ----------------------------------------------- */
@@ -645,6 +671,10 @@ font-size: 2rem;
     
     font-size: 1rem;
     padding-bottom: 0.5rem
+  }
+
+  .CountDownBox{
+    margin: 1.6rem;
   }
   
    /* ----------------------------------------------- */

@@ -15,6 +15,10 @@ html, body{
     
 }
 
+a{
+  text-decoration: none;
+}
+
 /* ----------------------------------------------- */
 /* Extras*/
 /* ----------------------------------------------- */
@@ -48,7 +52,7 @@ nav img{
     width: 110px;
     
     margin-left: 0.5rem;
-   z-index: 155; 
+    z-index: 155; 
 
 }
 
@@ -219,6 +223,7 @@ header{
   display: flex;
   flex-flow: column wrap;
   justify-content: space-evenly;
+  margin-bottom: 2.5rem;
 }
 
 .iconMain{
@@ -300,6 +305,7 @@ margin-bottom: 0.5rem;
   /* ----------------------------------------------- */
   /*---------Section Two------------*/
 /* ----------------------------------------------- */
+
 .sectionTwo h2:first-of-type{
 margin-bottom: 1rem;
 }
@@ -550,6 +556,7 @@ margin-bottom: 0.7rem;
 
 footer ul {
   font-size: 1.2rem;
+  margin-bottom: 3.5rem;
 }
 
 
@@ -581,7 +588,7 @@ footer ul {
 footer ul {
   font-size: 1.2rem;
   justify-content: center;
-
+  margin-bottom: 3.5rem;
 }
 
 

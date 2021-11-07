@@ -191,7 +191,7 @@ header{
 
 .menuItem{
   text-decoration: none;
-  color: #000000;
+  color: #3c1642;
   font-size: 1.6rem;
   margin-top: 1.5rem;
   text-transform: uppercase;
@@ -204,9 +204,8 @@ header{
 }
 
 .menuItem:hover{
-  color: #3c1642;
-  text-decoration: underline;
-  transition: 0.5s;
+  border-bottom: 2px solid #3c1642;
+  transition: 0.1s;
 }
 .modalLogoBlack{
   display: none;
@@ -268,7 +267,7 @@ margin-bottom: 1rem;
   #homeMain button:hover{
     background-color:#3c1642 ;
     color: #ffffff;
-    transition: 0.5s;
+    transition: 0.1s;
   }
 
   /* ----------------------------------------------- */
@@ -363,9 +362,8 @@ footer ul {
   font-family: "Spartan" ;
 }
 .menuItemFooter:hover, .menuItemNav:hover{
-  border-bottom: 2px solid #b2ff9e;
-  
-  transition: 0.2s ;
+  border-bottom: 3px solid #b2ff9e;
+  transition: 0.1s ;
   
 }
 
@@ -440,12 +438,7 @@ footer p {
     font-family: "Spartan";
     line-height: 3.5rem;
   }
-  .menuItemNav:hover{
-    background-color: #b2ff9e;
-    color: #3c1642;
-    text-decoration: none;
-    transition: 0.5s;
-  }
+
 
   /* ----------------------------------------------- */
   /*---------Video Styles------------*/

@@ -1,0 +1,49 @@
+.insomniaMap{
+    width: 100%;
+    opacity: 70%;
+    border: 0;
+    height: 450px;
+}
+
+.mapContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+
+
+.modalContainer { 
+    
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../assets/freaky-fest-2.jpg);
+     position: center;
+     background-attachment: cover;
+     
+    }
+
+    .modalContainer p{
+        color: #fff;
+    }
+
+
+    @media only screen and (min-width: 700px)  {
+
+        .mapContainer{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+        
+
+        .modalContainer{
+            grid-area: 1 / 1 / 2 / 2;
+        }
+
+        .frameContainer{
+            grid-area: 1 / 2 / 2 / 5;
+        }
+    }

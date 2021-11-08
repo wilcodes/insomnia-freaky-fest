@@ -1,0 +1,52 @@
+/* ----------------------------------------------- */
+  /*---------Questions------------*/
+/* ----------------------------------------------- */
+
+.questionContainer, .answerContainer{
+    padding: 0.2rem;
+    margin: 1rem;
+}
+
+.questionContainer{
+    background-color: rgb(243, 240, 240);
+    margin-top: 3rem;
+    
+}
+
+.answerContainer{
+    
+}
+
+.questionContainer span, .answerContainer span{
+    border-left:  4px solid #b2ff9e;
+    font-size: 2rem;
+    padding-left:1rem;
+    
+}
+.questionContainer p, .answerContainer p {
+    margin-left: 0.3rem;
+}
+
+.questionContainer p {
+    font-weight: bold;
+}
+
+.answerContainer span{
+    border-left:  4px solid #000000;
+   
+     
+}
+
+.sectionOne p {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.sectionOneSubBox h2{
+    margin-bottom: 2rem;
+}
+
+/* ----------------------------------------------- */
+  /*---------Answers------------*/
+/* ----------------------------------------------- */

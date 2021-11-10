@@ -1,9 +1,3 @@
-.insomniaMap{
-    width: 100%;
-    opacity: 70%;
-    border: 0;
-    height: 450px;
-}
 
 .mapContainer{
     display: grid;
@@ -11,20 +5,44 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    
+}
+.modalContainer p {
+    margin: 1rem auto;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
 }
 
+.insomniaMap{
+    background-color: black;
+    width: 100%;
+    opacity: 80%;
+    border: 0;
+    height: 250px;
+}
 
-
-.modalContainer { 
+.modalContainer {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap; 
+     background-image: linear-gradient(rgba(41, 25, 25, 0.7), rgba(0, 0, 0, 0.4)), url(../assets/freaky-fest-1.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     grid-area: 1/1/1/1;
+     padding: 0.5rem;
+     box-sizing: border-box;
     
-     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../assets/freaky-fest-2.jpg);
-     position: center;
-     background-attachment: cover;
      
     }
 
     .modalContainer p{
         color: #fff;
+        font-size: 1.1rem;
+        
+        
     }
 
 
@@ -32,18 +50,30 @@
 
         .mapContainer{
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             grid-template-rows: 1fr;
             grid-column-gap: 0px;
             grid-row-gap: 0px;
         }
-        
 
         .modalContainer{
-            grid-area: 1 / 1 / 2 / 2;
+            height: 400px;
+            grid-area: 1/1/1/1;
+            
+        }
+        .insomniaMap{
+            
+            height: 400px;
         }
 
-        .frameContainer{
-            grid-area: 1 / 2 / 2 / 5;
+        .modalContainer p {
+           
+            font-size: 1.6rem;
+            margin: 1.3rem auto;
+        
+            
         }
+        
+
+       
     }

@@ -1,0 +1,34 @@
+Form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+label{
+    margin:1rem ;
+}
+.sectionOneSubBox p{
+    text-align: center;
+    font-size: 1.1rem;
+    
+}
+
+.sectionOneSubBox .subDescription{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+@media only screen and (min-width: 700px)  {
+
+    .sectionOneSubBox p{
+        text-align: center;
+        font-size: 1.7rem;
+        
+    }
+    
+    .sectionOneSubBox .subDescription{
+        font-size: 1.9rem;
+        font-weight: bold;
+    }
+}

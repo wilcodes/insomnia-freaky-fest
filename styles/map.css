@@ -1,4 +1,7 @@
 
+.sectionOneSubBox h2{
+    margin-bottom: 2rem;
+}
 .mapContainer{
     display: grid;
     grid-template-columns: 1fr;

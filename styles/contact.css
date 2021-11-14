@@ -38,7 +38,7 @@ label{
 
     input,textarea{
        
-        font-size: 1em;
+        font-size: .9em;
         border:none;
         border-bottom: 2px solid rgba(0,0,0,0.4);
         padding: 1em 0;

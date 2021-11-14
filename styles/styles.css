@@ -355,11 +355,15 @@ footer ul {
   padding-top: 1.3rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   list-style: none;
   margin-bottom: 1.5rem;
   font-size: 1rem;
 
+}
+
+footer li{
+  padding: .4rem;
 }
 
 .menuItemFooter{

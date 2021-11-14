@@ -50,19 +50,21 @@ label{
         font-family:"Spartan" ;
         font-size: 1rem;
         color: #fff;
-        padding-left: 1.5rem;
+        
         margin-left: 5rem;
     }
     input:focus, textarea:focus{
         border-bottom: 2px solid #3c1642;
         color: #fff;
-        padding-left: 1.5rem;
+        
     }
 
     input, textarea{
-        background-color: #222;
+        background-color: #3c1642;
         border-radius: 30px;
         margin-bottom: 1.2rem;
+        color: #fff;
+        padding-left: 1.5rem;
     }
 
   

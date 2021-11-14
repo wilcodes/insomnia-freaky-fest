@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.logoWrapper{
+    text-align: center;
+}
+.logo{
+    width: 60%;
+    height: auto;
+}
+.artistWrapper{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #b2ff9e;
+    padding: 1.5rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 2rem;
+    opacity: 90%;
+}
+
+.artistWrapper p{
+    line-height: 50px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Russo One', sans-serif;
+    padding: 0;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 700px)  {
+
+    .artistWrapper{
+        width: 50%;
+        
+        
+    }
+    .artistWrapper p{
+        line-height: 40px;
+        font-size:1.7rem;
+    }
+   
+
+    
+}

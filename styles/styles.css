@@ -209,7 +209,7 @@ header{
 
 .menuItem:hover{
   border-bottom: 2px solid #3c1642;
-  transition: 0.1s;
+  transition: 0.6s;
 }
 .modalLogoBlack{
   display: none;
@@ -374,7 +374,7 @@ footer li{
 }
 .menuItemFooter:hover, .menuItemNav:hover{
   border-bottom: 3px solid #b2ff9e;
-  transition: 0.1s ;
+  transition: 0.5s ;
   
 }
 

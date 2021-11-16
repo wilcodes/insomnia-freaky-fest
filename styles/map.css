@@ -2,6 +2,12 @@
 .sectionOneSubBox h2{
     margin-bottom: 2rem;
 }
+
+.sectionOneSubBox p{
+    text-align: center;
+    font-size: 1.1rem;
+    
+}
 .mapContainer{
     display: grid;
     grid-template-columns: 1fr;
@@ -51,6 +57,11 @@
 
     @media only screen and (min-width: 700px)  {
 
+        .sectionOneSubBox p{
+            text-align: center;
+            font-size: 1.7rem;
+            
+        }
         .mapContainer{
             display: grid;
             grid-template-columns: repeat(2, 1fr);

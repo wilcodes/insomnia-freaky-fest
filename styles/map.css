@@ -1,6 +1,6 @@
 
 .sectionOneSubBox h2{
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .sectionOneSubBox p{
@@ -60,6 +60,7 @@
         .sectionOneSubBox p{
             text-align: center;
             font-size: 1.7rem;
+            margin-bottom: 2rem;
             
         }
         .mapContainer{

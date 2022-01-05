@@ -50,9 +50,9 @@ a{
 
 nav img{
     width: 110px;
-    
     margin-left: 0.5rem;
     z-index: 155; 
+    height: 100%;
 
 }
 
